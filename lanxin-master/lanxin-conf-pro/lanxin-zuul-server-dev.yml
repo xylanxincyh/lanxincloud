@@ -1,5 +1,8 @@
+server:
+  port: 8900
+spring:
+  profiles:
+    active: dev
 zuul:
   routes:
-    service-provider:
-      path: /user/**
-      serviceId: lanxin-user-service
+    lanxin-user-service:/user/**
