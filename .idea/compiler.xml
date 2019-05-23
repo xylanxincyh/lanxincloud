@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lanxin-common" />
+        <module name="lanxin-conf-server" />
+        <module name="lanxin-consul-server" />
+        <module name="lanxin-eureka-server" />
+        <module name="lanxin-hystrix-server" />
+        <module name="lanxin-user-service" />
+        <module name="lanxin-zuul-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lanxin-cloud" target="1.8" />
+      <module name="lanxin-common" target="1.7" />
+      <module name="lanxin-conf-pro" target="1.8" />
+      <module name="lanxin-conf-server" target="1.8" />
+      <module name="lanxin-consul-server" target="1.8" />
+      <module name="lanxin-eureka-server" target="1.8" />
+      <module name="lanxin-hystrix-server" target="1.8" />
+      <module name="lanxin-master" target="1.8" />
+      <module name="lanxin-user-service" target="1.8" />
+      <module name="lanxin-zuul-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

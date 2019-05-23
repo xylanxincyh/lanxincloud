@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lanxin-cloud.iml" filepath="$PROJECT_DIR$/lanxin-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lanxin-common/lanxin-common.iml" filepath="$PROJECT_DIR$/lanxin-common/lanxin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lanxin-master/lanxin-conf-server/lanxin-conf-server.iml" filepath="$PROJECT_DIR$/lanxin-master/lanxin-conf-server/lanxin-conf-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lanxin-master/lanxin-consul-server/lanxin-eureka-server.iml" filepath="$PROJECT_DIR$/lanxin-master/lanxin-consul-server/lanxin-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lanxin-master/lanxin-hystrix-server/lanxin-hystrix-server.iml" filepath="$PROJECT_DIR$/lanxin-master/lanxin-hystrix-server/lanxin-hystrix-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lanxin-master/lanxin-master.iml" filepath="$PROJECT_DIR$/lanxin-master/lanxin-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lanxin-user-service/lanxin-user-service.iml" filepath="$PROJECT_DIR$/lanxin-user-service/lanxin-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lanxin-master/lanxin-zuul-server/lanxin-zuul-server.iml" filepath="$PROJECT_DIR$/lanxin-master/lanxin-zuul-server/lanxin-zuul-server.iml" />
+    </modules>
+  </component>
+</project>
