@@ -1,8 +1,0 @@
-server:
-  port: 8900
-spring:
-  profiles:
-    active: dev
-zuul:
-  routes:
-    lanxin-user-service:/user/**
