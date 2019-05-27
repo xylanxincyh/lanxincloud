@@ -1,0 +1,16 @@
+server:
+  port: 8902
+spring:
+  application:
+    name: lanxin-zipkin-server
+  profiles:
+    active: dev
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

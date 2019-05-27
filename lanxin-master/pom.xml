@@ -16,6 +16,7 @@
         <module>lanxin-conf-server</module>
         <module>lanxin-hystrix-server</module>
         <module>lanxin-zuul-server</module>
+        <module>lanxin-zipkin-server</module>
     </modules>
 
 

@@ -1,0 +1,20 @@
+server:
+  port: 8901
+spring:
+  application:
+    name: lanxin-hystrix-server
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+
+#监控所有微服务集群
+#hytrix仪表盘：http://localhost:8901/hystrix/
+#监控地址：http://localhost:8901/turbine.stream
+#在hystrix仪表盘中监控上面的地址即可
+turbine:
+  aggregator:
+    clusterConfig: default
+  #要监控的微服务serviceId
+  appConfig: lanxin-user-service, lanxin-dept-service
+  clusterNameExpression: "'default'"
